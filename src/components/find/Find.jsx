@@ -43,8 +43,6 @@ const Find = () => {
               slidesPerView: 5,
             },
           }}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
             <Card
